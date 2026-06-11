@@ -1,0 +1,18 @@
+{
+    "auth": {
+        "errors": {
+            "accountDisabled": "Your account has been suspended, contact your manager for further information. Reason: {{reason}}",
+            "authError": "An error occurred while trying to log in.",
+            "invalidCredentials": "Invalid login credentials. Please try again.",
+            "noConnectedAccount": "This account is not yet linked to a login method.",
+            "oauthError": "An issue occurred while using OAuth2.1.",        
+            "providerDisabled": "This login method is inactive. Please try another login method.",
+            "rateLimit": "Woah! Take it easy! You're going too fast. Please try again in a few seconds.",
+            "signupDisabled": "Signups are currently disabled.",
+            "unknown": "An unknown error occurred. Please try again later.",
+            "usernameInvalid": "The username is invalid.",
+            "bannedUser": "Your account has been suspended, contact your manager for further information. Reason: {{reason}}",
+            "usernameTooShort": "Try another username."
+        }
+    }
+  }
