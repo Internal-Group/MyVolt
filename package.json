@@ -3,9 +3,10 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "paraglide-js compile --project ./project.inlang --outdir ./src/paraglide && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "machine-translate": "inlang machine translate --project project.inlang"
   },
   "dependencies": {
     "@better-auth/i18n": "^1.6.16",
@@ -29,6 +30,8 @@
     "eslint": "^9",
     "eslint-config-next": "^16.2.4",
     "prisma": "^7.8.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@inlang/paraglide-js": "^2.20.0",
+    "@inlang/cli": "^3.0.0"
   }
 }
